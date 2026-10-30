@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset dan artefak model (besar / tidak dibagikan)
+dataset_ikan/
+fish_segmentation_output/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
